@@ -32,6 +32,7 @@ function App() {
       </p>
       <Hello></Hello>
       <Getname name="张三" age={20} hobby='水果'></Getname>
+
     </>
   )
 }
