@@ -1,3 +1,5 @@
+import { Fragment } from "react/jsx-runtime";
+
 export function Hello() {
   return (
     <div>
@@ -25,3 +27,51 @@ export const Getname = ({name, age, hobby}:Props) => {
     </div>
   );
 };
+
+// 列表
+export const List = () => {
+  const list = [{
+    name: '张三',
+    age: 20,
+    hobby: '水果'
+  }, {
+    name: '李四',
+    age: 21,
+    hobby: '篮球'
+  }, {
+    name: '王五',
+    age: 22,
+    hobby: '足球'
+  }];
+  return (
+    <ul>
+      {list.map((item) => (
+        <Fragment key={item.name}>
+         <li>{item.name}</li>
+         <li>{item.age} </li>
+         <li>{item.hobby}</li>
+         </Fragment>
+      ))}
+    </ul>
+  );
+}
+
+
+
+// 使用 children
+export const Children = ({children}:{children: React.ReactNode}) => {
+  return (
+    <div>
+      {children}
+    </div>
+  );
+}
+
+// 使用 children
+export const Usechildren = () => {
+  return(
+    <>
+    <div>使用了一下children</div>
+    </>
+  )
+}
