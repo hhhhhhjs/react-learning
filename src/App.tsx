@@ -7,6 +7,8 @@ import { Usechildren } from './views/test'
 import { Count1 } from './views/Snapshot'
 import { Counter2 } from './views/Snapshot'
 import { Updateobj } from './views/updateobj'
+import { Selfobj } from './views/updateobjtwo'
+import { Immerobj } from './views/updateobjtwo'
 
 function App() {
 
@@ -28,6 +30,8 @@ function App() {
       <Count1></Count1>
       <Counter2></Counter2>
       <Updateobj></Updateobj>
+      <Selfobj></Selfobj>
+      <Immerobj></Immerobj>
     </>
   )
 }

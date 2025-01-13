@@ -67,4 +67,3 @@ const changedage = (e:any) => {
   );
 };
 
-
