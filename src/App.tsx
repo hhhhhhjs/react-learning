@@ -9,13 +9,13 @@ import { Counter2 } from './views/Snapshot'
 import { Updateobj } from './views/updateobj'
 import { Selfobj } from './views/updateobjtwo'
 import { Immerobj } from './views/updateobjtwo'
+import { ArrayList } from './views/array'
 
 function App() {
 
 
   return (
     <>
-      
       <Hello></Hello>
       <Getname name="张三" age={20} hobby='水果'></Getname>
       <div>
@@ -32,6 +32,7 @@ function App() {
       <Updateobj></Updateobj>
       <Selfobj></Selfobj>
       <Immerobj></Immerobj>
+      <ArrayList></ArrayList>
     </>
   )
 }
