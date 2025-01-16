@@ -11,6 +11,7 @@ import { Selfobj } from './views/updateobjtwo'
 import { Immerobj } from './views/updateobjtwo'
 import { ArrayList } from './views/array'
 import { Counter } from './views/reducer'
+import { Counterimmer } from './views/reducer'
 function App() {
 
 
@@ -34,6 +35,7 @@ function App() {
       <Immerobj></Immerobj>
       <ArrayList></ArrayList>
       <Counter></Counter>
+      <Counterimmer></Counterimmer>
     </>
   )
 }
