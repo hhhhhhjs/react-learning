@@ -12,6 +12,9 @@ import { Immerobj } from './views/updateobjtwo'
 import { ArrayList } from './views/array'
 import { Counter } from './views/reducer'
 import { Counterimmer } from './views/reducer'
+import { Page } from './views/context'
+import { PageContext } from './views/context'
+import { PageContextSimplify } from './views/context'
 function App() {
 
 
@@ -36,6 +39,9 @@ function App() {
       <ArrayList></ArrayList>
       <Counter></Counter>
       <Counterimmer></Counterimmer>
+      <Page></Page>
+      <PageContext></PageContext>
+      <PageContextSimplify></PageContextSimplify>
     </>
   )
 }
