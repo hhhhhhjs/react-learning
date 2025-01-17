@@ -15,6 +15,7 @@ import { Counterimmer } from './views/reducer'
 import { Page } from './views/context'
 import { PageContext } from './views/context'
 import { PageContextSimplify } from './views/context'
+import { Useref } from './views/ref'
 function App() {
 
 
@@ -42,6 +43,7 @@ function App() {
       <Page></Page>
       <PageContext></PageContext>
       <PageContextSimplify></PageContextSimplify>
+      <Useref></Useref>
     </>
   )
 }
