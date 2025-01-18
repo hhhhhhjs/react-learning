@@ -16,6 +16,8 @@ import { Page } from './views/context'
 import { PageContext } from './views/context'
 import { PageContextSimplify } from './views/context'
 import { Useref } from './views/ref'
+import { Videostart } from './views/effect'
+import { EffectDemo } from './views/effect'
 function App() {
 
 
@@ -44,6 +46,8 @@ function App() {
       <PageContext></PageContext>
       <PageContextSimplify></PageContextSimplify>
       <Useref></Useref>
+      <Videostart></Videostart>
+      <EffectDemo></EffectDemo>
     </>
   )
 }
